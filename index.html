@@ -87,7 +87,8 @@
                 <label>your country</label>
                 <div class="inputIcons">
                   
-                  <input placeholder="Your city" type="email" name="" id="" class="input-field" />
+                  <input placeholder="Your city" type="email" name="" id="" class="input-field input-field2" />
+                  
                   <i class="fa-solid icon fa-earth-americas"></i>
                 </div>
               </div>
@@ -95,14 +96,14 @@
                 <label>postal code</label>
                 <div class="inputIcons">
                   
-                  <input placeholder="Your city" type="email" name="" id="" class="input-field" />
+                  <input placeholder="Your city" type="email" name="" id="" class="input-field input-field2" />
                   <i class="fa-solid icon fa-envelope-open-text"></i>
                 </div>
               </div>
             </div>
           </div>
           <div class="checkbox">
-          <input type="checkbox" name="" class="" id="saveInfo">
+          <input class="input-field" type="checkbox" name="" class="" id="saveInfo">
           <label for="saveInfo">Save this information for next time</label>
         </div>
        <div class="btn-flex">
@@ -113,15 +114,54 @@
        </div>
         </div>
         <div class="itemsPart">
+          <div class="itemContent">
+            <figure class="content1">
+              <img src="./photo1.png" alt="">
+              <figcaption class="product-Detail">
+                  <h4>Vintage Backbag</h4>
+                  <P>$54.99 <SPan>94.99</SPan></P>
+                  <div class="quantity-container">
+                    <button class="quantity-btn" onclick="decrement()">-</button>
+                    <p  class="quantity-input" value="1" id="quantity"> 1</p>
 
+                    <button class="quantity-btn" onclick="increment()">+</button>
+                  </div>
+              </figcaption>
+            </figure>
+            <figure class="content1">
+              <img src="./photo1.png" alt="">
+              <figcaption class="product-Detail">
+                  <h4>Vintage Backbag</h4>
+                  <P>$54.99 <SPan>94.99</SPan></P>
+                  <div class="quantity-container">
+                    <button class="quantity-btn" onclick="decrement()">-</button>
+                    <p  class="quantity-input" value="1" id="quantity"> 1</p>
+
+                    <button class="quantity-btn" onclick="increment()">+</button>
+                  </div>
+              </figcaption>
+            </figure>
+            <div class="product-story">
+              
+              <div class="price-flex">
+                <p>Shipping</p> <span>$19</span>
+              </div>
+              <div class="price-flex">
+                <p>Total</p> <span>$134.90</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
-        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      ></script>
     </main>
+    
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./simple.js"></script>
   </body>
 </html>
+
